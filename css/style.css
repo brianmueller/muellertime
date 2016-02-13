@@ -559,19 +559,28 @@ img {
 
 /* Team
 ---------------------------------*/
+/** {
+  border: 1px dashed red;
+}*/
 
 .team-leader-block {
-  max-width: 993px;
+  /*max-width: 993px;*/
+  max-width: 700px;
   margin: 0 auto;
 }
 .team-leader-box {
-  width: 30.66%;
-  margin-right: 3.82979%;
+  /*width: 30.66%;*/
+  width: 42.66%;
+  /*margin-right: 3.82979%;*/
+  margin-right: 4%;
+  margin-left: 3%;
+  /*margin: 0 8%;*/
   height: 490px;
   overflow: hidden;
   text-align: center;
   float: left;
 }
+
 .team-leader-box span {
   margin-bottom: 24px;
   display: block;
