@@ -161,16 +161,16 @@ p {
 	background: linear-gradient( rgba(0,0,0, 0.85), rgba(0,0,0, 0.85)), url('../custom/thread-web-1.jpg');
   background-size: cover;
   /*padding: 280px 0;*/
-	padding: 100px 0 280px;
+	padding: 80px 0 80px;
 }
 .logo {
   /*width: 130px;*/
-	width: 220px;
+	width: 150px;
   margin: 0 auto 50px;
 }
 .header h1 {
   font-family: 'HoboStd', sans-serif;
-  font-size: 81px;
+  font-size: 50px;
   font-weight: 400;
   letter-spacing: 2px;
   margin: 0 0 0px 0;
@@ -179,7 +179,7 @@ p {
 }
 .header h2 {
   font-family: 'FreeSet-Bold', sans-serif;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 900;
   /*letter-spacing: 0px;*/
   margin: 0 0 22px 0;
@@ -203,7 +203,7 @@ p {
 .we-create li {
   /*display: inline-block;*/
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 13px;
   /*color: #bcbcbc;*/
 	color: #fff;
   text-transform: uppercase;
