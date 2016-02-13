@@ -613,6 +613,8 @@ img {
 .team-leader img {
   display: block;
   border-radius: 50%;
+  height:293px;
+  width:293px;
 }
 .team-leader ul {
   display: block;
