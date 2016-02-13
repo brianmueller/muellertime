@@ -544,7 +544,9 @@ img {
 }
 .c-logo-part ul li {
   display: inline;
-  margin: 0 25px;
+  margin: 15px 25px;
+  position: relative;
+  left: 38px;
 }
 .c-logo-part ul a {
   display: inline-block;
