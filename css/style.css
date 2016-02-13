@@ -158,7 +158,7 @@ p {
   /*background:url(../img/pw_maze_black_2X.png) left top repeat;*/
   /*background: url(../custom/thread-web-1.jpg) left top;*/
 	/*background: linear-gradient( rgba(255,255,255, 0.65), rgba(255,255,255, 0.65)), url('../custom/thread-web-1.jpg');*/
-	background: linear-gradient( rgba(0,0,0, 0.85), rgba(0,0,0, 0.85)), url('../custom/thread-web-1.jpg');
+	background: linear-gradient( rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('../custom/thread-web-1.jpg');
   background-size: cover;
   /*padding: 280px 0;*/
 	padding: 100px 0 250px;
