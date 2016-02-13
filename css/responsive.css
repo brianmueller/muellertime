@@ -2,6 +2,14 @@
    Media Queries
    ========================================================================== */
 
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+	/*laptop*/
+	.header{ padding: 80px 0 80px;}
+	.logo{ width: 150px;}
+	.header h1{ font-size: 50px;}
+	.header h2{ font-size: 30px;}
+	.we-create li{  font-size: 13px;}
+}
 
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
@@ -18,9 +26,13 @@
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
-	.header h1{ font-size:60px;}
-	.header h2{ font-size:36px;}
-	.we-create li{ font-size:16px;}
+
+	.header{ padding: 60px 0 60px;}
+	.logo{ width: 120px;}
+	.header h1{ font-size: 40px;}
+	.header h2{ font-size: 20px;}
+	.we-create li{  font-size: 10px;}
+
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
