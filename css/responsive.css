@@ -62,7 +62,7 @@
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}*/
 	.team-leader-box{ width:300px;	margin-right: 3%; margin-left: 5%;}
 	.main-nav li a {
-	  margin: 17px 5px;
+	  margin: 17px 0px;
 		font-size:0.9em;
 	}
 }
