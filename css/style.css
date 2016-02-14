@@ -16,10 +16,10 @@ blue: #2f3462
   font-family: HoboStd;
   src: url('../custom/HoboStd.otf');
 }
-@font-face {
+/*@font-face {
   font-family: FreeSet-Bold;
   src: url('../custom/FreeSet-Bold.ttf');
-}
+}*/
 
 /*
 #header_outer {
@@ -178,7 +178,8 @@ p {
 	/*text-shadow: 1px 1px 1px rgba(255,255,255, .3);*/
 }
 .header h2 {
-  font-family: 'FreeSet-Bold', sans-serif;
+  /*font-family: 'FreeSet-Bold', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   font-size: 45px;
   font-weight: 900;
   /*letter-spacing: 0px;*/
