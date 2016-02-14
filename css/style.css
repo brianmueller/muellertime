@@ -1,3 +1,7 @@
+/** {
+  border: 1px dashed red;
+}*/
+
 /*
 red: #a4323b
 orange: #ef6a36
@@ -562,9 +566,6 @@ img {
 
 /* Team
 ---------------------------------*/
-/** {
-  border: 1px dashed red;
-}*/
 
 .team-leader-block {
   max-width: 993px;

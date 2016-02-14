@@ -9,6 +9,8 @@
 	.header h1{ font-size: 50px;}
 	.header h2{ font-size: 30px;}
 	.we-create li{  font-size: 13px;}
+
+	.team-leader-box{ width:32.66%;	margin-right: 8%; margin-left: 9%;}
 }
 
 @media only screen and (min-width: 992px) {
@@ -19,7 +21,9 @@
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
-
+	.main-nav li a {
+	  margin: 17px 23px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -53,6 +57,14 @@
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 	.c-logo-part ul li { left: 5px;}
+
+	/*.team-leader-box{ max-width:207px; width:auto; float:none; margin:0 auto;	}
+	.team-leader-box:nth-of-type(3n){ margin:0 auto}*/
+	.team-leader-box{ width:300px;	margin-right: 3%; margin-left: 5%;}
+	.main-nav li a {
+	  margin: 17px 5px;
+		font-size:0.9em;
+	}
 }
 
 @media only screen and (max-width: 767px) {
