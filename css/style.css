@@ -438,13 +438,14 @@ p {
   padding: 0;
 }
 .Portfolio-box img {
+  opacity: 0.7;
   margin-bottom: 25px;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
 .Portfolio-box img:hover {
-  opacity: 0.6;
+  opacity: 1;
 }
 .Portfolio-nav li a.current {
   background: #a4323b;
