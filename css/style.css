@@ -304,8 +304,18 @@ p {
   padding: 90px 0 110px;
 }
 
+/* Video
+---------------------------------*/
+
+video {
+  /*object-fit: fill;*/
+  width: 100%;
+}
+
 /* Services
 ---------------------------------*/
+
+
 
 .service-list {
   padding: 0 0 0 0;

@@ -48,15 +48,15 @@ contact (us)
 <![endif]-->
 
 	<script>
-	function validate(){
-		var name = document.getElementById('name').value;
-		var email = document.getElementById('email').value;
-		var message = document.getElementById('message').value;
+		function validate() {
+			var name = document.getElementById('name').value;
+			var email = document.getElementById('email').value;
+			var message = document.getElementById('message').value;
 
-		if (name != "" && email != "" && message != "") {
-			alert('Thank You!');
+			if (name != "" && email != "" && message != "") {
+				alert('Thank You!');
+			}
 		}
-	}
 	</script>
 
 </head>
@@ -118,7 +118,14 @@ contact (us)
 	</nav>
 	<!--main-nav-end-->
 
-
+	<section class="main-section" id="video">
+		<div class="container">
+			<video controls>
+			  <source src="video/MuellerTime.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</div>
+	</section>
 
 	<section class="main-section" id="embroidery">
 		<!--main-section-start-->
@@ -240,42 +247,42 @@ contact (us)
 		<div class="portfolioContainer wow fadeInUp delay-04s">
 			<div class=" Portfolio-box printdesign">
 				<!-- <a href="#"> -->
-					<img src="img/Portfolio-pic1.jpg" alt="">
+				<img src="img/Portfolio-pic1.jpg" alt="">
 				<!-- </a> -->
 				<h3>Foto Album</h3>
 				<p>Print Design</p>
 			</div>
 			<div class="Portfolio-box webdesign">
 				<!-- <a href="#"> -->
-					<img src="img/Portfolio-pic2.jpg" alt="">
+				<img src="img/Portfolio-pic2.jpg" alt="">
 				<!-- </a> -->
 				<h3>Luca Theme</h3>
 				<p>Web Design</p>
 			</div>
 			<div class=" Portfolio-box branding">
 				<!-- <a href="#"> -->
-					<img src="img/Portfolio-pic3.jpg" alt="">
+				<img src="img/Portfolio-pic3.jpg" alt="">
 				<!-- </a> -->
 				<h3>Uni Sans</h3>
 				<p>Branding</p>
 			</div>
 			<div class=" Portfolio-box photography">
 				<!-- <a href="#"> -->
-					<img src="img/Portfolio-pic4.jpg" alt="">
+				<img src="img/Portfolio-pic4.jpg" alt="">
 				<!-- </a> -->
 				<h3>Vinyl Record</h3>
 				<p>Photography</p>
 			</div>
 			<div class=" Portfolio-box branding">
 				<!-- <a href="#"> -->
-					<img src="img/Portfolio-pic5.jpg" alt="">
+				<img src="img/Portfolio-pic5.jpg" alt="">
 				<!-- </a> -->
 				<h3>Hipster</h3>
 				<p>Branding</p>
 			</div>
 			<div class=" Portfolio-box photography">
 				<!-- <a href="#"> -->
-					<img src="img/Portfolio-pic6.jpg" alt="">
+				<img src="img/Portfolio-pic6.jpg" alt="">
 				<!-- </a> -->
 				<h3>Windmills</h3>
 				<p>Photography</p>
@@ -448,7 +455,7 @@ contact (us)
 				<div class="wow fadeInUp delay-05s" id="contact-form">
 					<div class="form">
 						<form method="post" name="myemailform" action="contact.php">
-							<input class="input-text" type="text" name="" placeholder="Your Name" id="name"required>
+							<input class="input-text" type="text" name="" placeholder="Your Name" id="name" required>
 							<input class="input-text" type="text" name="" placeholder="Your E-mail" id="email" required>
 							<textarea class="input-text text-area" placeholder="Your Message" id="message" cols="0" rows="0" required></textarea>
 							<input class="input-btn" type="submit" value="send message" onclick="validate()">
