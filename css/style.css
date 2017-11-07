@@ -307,15 +307,13 @@ p {
 /* Video
 ---------------------------------*/
 
-video {
+#video {
   /*object-fit: fill;*/
-  width: 100% !important;
+  width: 100%;
 }
 
 /* Services
 ---------------------------------*/
-
-
 
 .service-list {
   padding: 0 0 0 0;
