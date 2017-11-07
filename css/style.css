@@ -309,7 +309,7 @@ p {
 
 video {
   /*object-fit: fill;*/
-  width: 100%;
+  width: 100% !important;
 }
 
 /* Services
